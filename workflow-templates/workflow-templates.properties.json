@@ -1,6 +1,4 @@
 {
-  "name": "Octo Organization Workflow",
-  "description": "Octo Organization CI starter workflow.",
-  "categories": ["Go"],
-  "filePatterns": ["package.json$"]
+  "name": "KRAESI Workflow",
+  "description": "Deploy to Cloud Foundry"
 }
