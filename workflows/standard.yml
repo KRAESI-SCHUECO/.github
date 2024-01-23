@@ -31,7 +31,7 @@ jobs:
       - name: Build Project
         run: npm exec -c "mbt build --mtar build.mtar"
       - name: Deploying Project
-        uses: KRAESI/cf-deploy@main
+        uses: KRAESI-SCHUECO/cf-deploy@main
         with:
           api: ${{ secrets.CF_API_ENDPOINT }}
           user: ${{ secrets.CF_USER }}
